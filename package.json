@@ -7,8 +7,8 @@
     "dev": "parcel index.html",
     "test": "jest --watch",
     "test:e2e": "cypress run",
-    "esinit": "eslint --init",
-    "tscinit": "tsc --init"
+    "test:e2e:open": "cypress open",
+    "ci": "start-server-and-test dev http://localhost:1234 test:e2e"
   },
   "author": "",
   "license": "ISC",
@@ -30,6 +30,7 @@
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^5.1.0",
     "jest": "^27.1.0",
+    "start-server-and-test": "^1.13.1",
     "ts-jest": "^27.0.5"
   }
 }

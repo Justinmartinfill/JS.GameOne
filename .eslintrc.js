@@ -5,24 +5,12 @@ module.exports = {
     browser: true,
     es2021: true
   },
-  extends: [
-    'standard'
-  ],
+  extends: ['standard'],
   parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaVersion: 12,
     sourceType: 'module'
   },
-  plugins: [
-    '@typescript-eslint', 'cypress', 'jest' 
-  ],
-  rules: {
-  },
-  overrides: {
-    files: ['test/e2e/*.spec.ts'],
-    rules: {
-      "jest/expect-expect": "off"
-    }
-  }
-
+  plugins: ['@typescript-eslint', 'cypress', 'jest'],
+  rules: {}
 }
