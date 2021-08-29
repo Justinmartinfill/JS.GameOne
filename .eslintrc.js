@@ -1,5 +1,7 @@
 module.exports = {
   env: {
+    'jest/globals': true,
+    'cypress/globals': true,
     browser: true,
     es2021: true
   },
@@ -12,8 +14,15 @@ module.exports = {
     sourceType: 'module'
   },
   plugins: [
-    '@typescript-eslint'
+    '@typescript-eslint', 'cypress', 'jest' 
   ],
   rules: {
+  },
+  overrides: {
+    files: ['test/e2e/*.spec.ts'],
+    rules: {
+      "jest/expect-expect": "off"
+    }
   }
+
 }
