@@ -17,6 +17,7 @@
     "cypress": "^8.3.1",
     "eslint-plugin-jest": "^24.4.0",
     "parcel-bundler": "^1.12.5",
+    "serve-static": "^1.14.1",
     "typescript": "^4.4.2"
   },
   "devDependencies": {
@@ -30,6 +31,7 @@
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^5.1.0",
     "jest": "^27.1.0",
+    "sass": "^1.39.0",
     "start-server-and-test": "^1.13.1",
     "ts-jest": "^27.0.5"
   }
