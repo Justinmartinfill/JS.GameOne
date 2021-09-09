@@ -1,5 +1,4 @@
 {
     "integrationFolder": "test/e2e",
-    "testFiles":["**/*.spec.*"],
-    "baseUrl":"http://localhost:1234"
+    "testFiles":["**/*.spec.*"]    
 }
