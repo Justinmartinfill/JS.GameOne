@@ -2,13 +2,6 @@ const hero = document.getElementById('hero')
 
 document.addEventListener('keydown', move)
 
-/* function move (event) {
-  if (event.key === 'ArrowDown') {
-    const topPosition = hero.getBoundingClientRect().top
-    hero.style.top = topPosition + 100 + 'px'
-  }
-} */
-
 function move (event) {
   try {
     const Position = hero.getBoundingClientRect()
